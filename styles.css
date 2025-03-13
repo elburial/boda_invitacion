@@ -1,0 +1,181 @@
+h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 5px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    margin: 4px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Dynalight", cursive;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Secciones */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Sección de Imágenes */
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos para la sección de imágenes */
+.imagen-container {
+    position: relative;
+    display: inline-block;
+}
+
+.boda-img {
+    width: 100%;
+    display: block;
+}
+
+/* Estilos para el contador sobre la imagen 2 */
+.imagen-container:nth-child(2) .countdown-overlay {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#830b0b;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Dynalight', cursive;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 253, 253, 0);
+    background: none; /* Elimina cualquier fondo semitransparente */
+    padding: 10px;
+}
+
+/* Estilos para los textos sobre la imagen 3 */
+.imagen-container:nth-child(3) .imagen-texto {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color:#830b0b;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Dynalight', cursive;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0);
+    background: none; /* Elimina el fondo semitransparente */
+}
+
+/* Ubicación de los textos sobre la imagen 3 */
+.imagen-container:nth-child(3) .imagen-texto:nth-child(2) {
+    top: 42%;
+}
+.imagen-container:nth-child(3) .imagen-texto:nth-child(3) {
+    top: 47%;
+}
+.imagen-container:nth-child(3) .imagen-texto:nth-child(4) {
+    top: 52%;
+}
+.imagen-container:nth-child(3) .imagen-texto:nth-child(6) {
+    top: 78%;
+}
+.imagen-container:nth-child(3) .imagen-texto:nth-child(7) {
+    top: 82%;
+}
+.imagen-container:nth-child(3) .imagen-texto:nth-child(5) {
+    top: 78%;
+}
+
+
+/* Posicionar Vestimenta y Confirmación sobre la imagen 4 */
+.imagen-container:nth-child(4) .img4-texto {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #830b0b;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Dynalight', cursive;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0);
+    background: none; /* Asegura que no tenga fondo */
+}
+
+/* Ubicación de los textos en la imagen 4 */
+.imagen-container:nth-child(4) .img4-texto:nth-child(2) {
+    top: 20%;
+}
+.imagen-container:nth-child(4) .img4-texto:nth-child(3) {
+    top: 25%;
+}
+.imagen-container:nth-child(4) .img4-texto:nth-child(4) {
+    top: 40%;
+}
+
+.details, .rsvp {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    color:#830b0b;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-maps-ceremonia {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #800000; /* Color vino */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.btn-maps-ceremonia:hover {
+    background-color: #660000; /* Un tono más oscuro de vino */
+}
+
+.btn-maps-recepcion {
+    position: absolute;
+    top: 88%;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: #800000; /* Color vino */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.btn-maps-recepcion:hover {
+    background-color: #660000; /* Un tono más oscuro de vino */
+}
